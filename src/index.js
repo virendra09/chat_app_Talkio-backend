@@ -20,7 +20,7 @@ const __dirname = path.resolve();
 
 const allowedOrigins = [
   "http://localhost:5173",                                    // local frontend
-  "https://chat-app-talkio-frontend.vercel.app/login",       // Vercel frontend
+  "https://chat-app-talkio-frontend.vercel.app"     // Vercel frontend
 ];
 
 app.use(express.json());
